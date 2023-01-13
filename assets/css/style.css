@@ -9,7 +9,7 @@ body {
   font-family: "Roboto" sans-serif;
 }
 nav {
-  width: 100%;
+  margin: auto;
   padding: 15px;
   font-family: "spectral";
   display: flex;
@@ -51,7 +51,7 @@ nav {
 }
 
 #lettura {
-  width: 120px;
+  width: 150px;
   text-decoration: none;
   background-color: black;
   color: white;
