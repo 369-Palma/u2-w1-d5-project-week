@@ -1,3 +1,9 @@
+html {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 body {
   width: 100%;
   font-family: "Roboto" sans-serif;
@@ -5,12 +11,11 @@ body {
 nav {
   width: 100%;
   padding: 15px;
-  font-family: "spectral" serif;
+  font-family: "spectral";
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: #ffc017;
-  border-bottom: 1.5px solid black;
 }
 .logo {
   width: 130px;
@@ -44,7 +49,41 @@ nav {
 #black a {
   color: white;
 }
-hr {
-  margin: 0;
-  border: 1 solid black;
+
+#lettura {
+  width: 120px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  border-radius: 30px;
+}
+header {
+  background-color: #ffc017;
+  border: 0.01px solid black;
+  border-right: none;
+  border-left: none;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titolo {
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+  justify-content: space-evenly;
+  margin-left: 170px;
+}
+
+.MMM {
+  width: auto;
+  height: auto;
+}
+h1 {
+  font-family: "roboto san-serif";
+  font-size: 50px;
+  font-weight: 400;
 }
