@@ -90,3 +90,35 @@ h1 {
 .colonna {
   justify-items: flex-start;
 }
+.numero span {
+  flex-grow: 10;
+  opacity: 0.3;
+}
+#intestazione {
+  display: flex;
+  margin-right: 1em;
+}
+.info-articolo {
+  display: flex;
+  flex-direction: column;
+}
+.autore {
+  display: flex;
+}
+.titolo-articolo p {
+  flex: grow 3;
+}
+#num-resto {
+  display: flex;
+  flex-direction: column;
+}
+#riga1,
+#riga2 {
+  display: flex;
+}
+.cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
