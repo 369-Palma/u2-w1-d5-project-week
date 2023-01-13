@@ -137,3 +137,22 @@ h1 {
   height: 300px;
   justify-content: space-around;
 }
+
+aside {
+  display: flex;
+  flex-direction: column;
+}
+.bottoni {
+  display: flex;
+  flex-direction: column;
+}
+.linea1,
+.linea2,
+.linea3 {
+  display: flex;
+}
+
+#blocco-bottoni {
+  display: flex;
+  flex-wrap: wrap;
+}
