@@ -156,3 +156,24 @@ aside {
   display: flex;
   flex-wrap: wrap;
 }
+
+#ultima-sezione {
+  display: flex;
+  justify-content: space-evenly;
+}
+#elenco {
+  display: flex;
+  flex-direction: column;
+}
+
+.extra-info {
+  display: flex;
+  justify-content: space-between;
+}
+.opaco {
+  display: flex;
+  align-items: center;
+}
+.video img {
+  width: 150px;
+}
