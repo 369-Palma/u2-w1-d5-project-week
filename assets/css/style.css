@@ -90,13 +90,12 @@ h1 {
 .colonna {
   justify-items: flex-start;
 }
-.numero span {
-  flex-grow: 10;
-  opacity: 0.3;
-}
+
 #intestazione {
   display: flex;
   margin-right: 1em;
+  justify-content: flex-start;
+  align-items: center;
 }
 .info-articolo {
   display: flex;
@@ -108,17 +107,32 @@ h1 {
 .titolo-articolo p {
   flex: grow 3;
 }
-#num-resto {
+.num-resto {
   display: flex;
   flex-direction: column;
 }
+.numero > span {
+  float: left;
+  font-size: 20px;
+  flex-grow: 5;
+  opacity: 0.5;
+}
+
 #riga1,
 #riga2 {
   display: flex;
+  justify-content: space-around;
 }
 .cards {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+}
+
+#top {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
   justify-content: space-around;
 }
