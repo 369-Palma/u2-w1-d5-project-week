@@ -10,6 +10,7 @@ nav {
   align-items: center;
   justify-content: space-around;
   background-color: #ffc017;
+  border-bottom: 1.5px solid black;
 }
 .logo {
   width: 130px;
@@ -42,4 +43,8 @@ nav {
 
 #black a {
   color: white;
+}
+hr {
+  margin: 0;
+  border: 1 solid black;
 }
