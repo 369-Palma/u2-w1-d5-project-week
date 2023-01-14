@@ -157,11 +157,6 @@ aside {
   display: flex;
 }
 
-#blocco-bottoni {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 #ultima-sezione {
   display: flex;
   justify-content: space-evenly;
@@ -187,4 +182,52 @@ aside {
   align-items: center;
   width: 620px;
   justify-content: space-between;
+}
+
+#links {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  justify-content: space-around;
+}
+#sopra,
+#sotto {
+  display: flex;
+  justify-content: space-between;
+}
+#linea1 span,
+#linea2 span,
+#linea3 span {
+  font-family: "spectral";
+  border: 1px solid rgb(228 228 228);
+  padding: 5px 10px;
+  margin: 5px;
+  color: rgb(33, 13, 13);
+}
+
+.buttons {
+  margin: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#linea1,
+#linea2,
+#linea3 {
+  margin: 15px;
+  display: flex;
+}
+#sopra span,
+#sotto span {
+  margin-right: 10px;
+  cursor: pointer;
+  border: 1px solid rgb(200, 200, 200);
+}
+
+#sopra a,
+#sotto a {
+  font-family: "spectral";
+  display: flex;
+  text-decoration: none;
+  color: grey;
 }
