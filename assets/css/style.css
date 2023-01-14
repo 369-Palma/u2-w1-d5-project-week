@@ -104,7 +104,9 @@ h1 {
 }
 .autore {
   display: flex;
+  align-items: center;
 }
+
 .titolo-articolo p {
   flex: grow 3;
 }
@@ -137,7 +139,10 @@ h1 {
   height: 300px;
   justify-content: space-around;
 }
-
+#parte1 {
+  display: flex;
+  flex-direction: column;
+}
 aside {
   display: flex;
   flex-direction: column;
@@ -176,4 +181,10 @@ aside {
 }
 .video img {
   width: 150px;
+}
+.scheda {
+  display: flex;
+  align-items: center;
+  width: 620px;
+  justify-content: space-between;
 }
