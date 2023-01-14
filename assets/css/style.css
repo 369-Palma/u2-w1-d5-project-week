@@ -4,10 +4,16 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
+
 body {
   width: 100%;
   font-family: "Roboto";
 }
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 nav {
   font-family: "spectral";
   margin: auto;
@@ -125,6 +131,7 @@ h1 {
 #riga2 {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .cards {
   width: 100%;
@@ -144,6 +151,7 @@ h1 {
   flex-direction: column;
 }
 aside {
+  width: 80%;
   display: flex;
   flex-direction: column;
 }
@@ -158,6 +166,7 @@ aside {
 }
 
 #ultima-sezione {
+  width: 80%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -191,10 +200,12 @@ aside {
   height: 60px;
   justify-content: space-around;
 }
-#sopra,
-#sotto {
+#sopra {
   display: flex;
   justify-content: space-between;
+}
+#sotto {
+  display: flex;
 }
 #linea1 span,
 #linea2 span,
